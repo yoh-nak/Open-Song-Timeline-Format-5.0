@@ -1,0 +1,102 @@
+{
+  "format": "OSTF",
+  "version": "5.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Repeated source note is not a copied Core Note"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "A",
+        "name": "A",
+        "start": 0,
+        "duration": 15360
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "solo",
+      "name": "Solo",
+      "clips": [
+        {
+          "id": "clip1",
+          "start": 0,
+          "duration": 15360,
+          "notes": [
+            {
+              "id": "note1",
+              "start": 960,
+              "duration": 1440,
+              "pitch": 64,
+              "velocity": 90,
+              "probability": 0.5,
+              "velocityDeviation": -8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [],
+    "phrases": [],
+    "units": [],
+    "alignments": []
+  },
+  "resources": [],
+  "performancePlans": [
+    {
+      "id": "repeat-plan",
+      "mode": "orderedFinite",
+      "defaultRealization": "silent",
+      "visits": [
+        {
+          "id": "head",
+          "ordinal": 0,
+          "sourceSectionIds": [
+            "A"
+          ],
+          "parts": [
+            {
+              "trackId": "solo",
+              "realization": "fixed"
+            }
+          ]
+        },
+        {
+          "id": "repeat",
+          "ordinal": 1,
+          "sourceSectionIds": [
+            "A"
+          ],
+          "parts": [
+            {
+              "trackId": "solo",
+              "realization": "fixed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

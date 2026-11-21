@@ -1,0 +1,26 @@
+{
+  "protocol": "OSTF-Plugin-Context",
+  "protocolVersion": "1.0.0",
+  "messageId": "diagnostic-message-01",
+  "operation": "diagnostic",
+  "score": {
+    "format": "OSTF",
+    "version": "5.0.0",
+    "sha256": "f849298b9ba0e14d32f95a9f270878110816ec00351ec3d9a0f5412d3968d1e3"
+  },
+  "scope": {
+    "startTick": 0,
+    "durationTicks": 3840,
+    "trackIds": [
+      "bass"
+    ]
+  },
+  "payload": {
+    "inReplyTo": "proposal-message-01",
+    "status": "stale",
+    "paths": [
+      "/tracks/0/clips/0/notes/0/velocity"
+    ],
+    "detail": "Current score raw-byte SHA does not equal proposal baseSha256; no change applied."
+  }
+}

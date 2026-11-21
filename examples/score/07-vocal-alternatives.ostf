@@ -1,0 +1,98 @@
+{
+  "format": "OSTF",
+  "version": "5.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "Alternate lyric phrases"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "A",
+        "name": "A",
+        "start": 0,
+        "duration": 30720
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "vocal",
+      "name": "Singer",
+      "clips": [],
+      "directions": [
+        {
+          "id": "vocalFreedom-1",
+          "type": "vocalFreedom",
+          "start": 0,
+          "duration": 30720,
+          "parameters": {
+            "voiceId": "v1",
+            "textPolicy": "alternatives",
+            "melodyPolicy": "open",
+            "candidatePhraseSets": [
+              {
+                "phraseIds": [
+                  "text-1"
+                ]
+              },
+              {
+                "phraseIds": [
+                  "text-2"
+                ]
+              }
+            ],
+            "adherence": "preferred"
+          }
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-v"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "text-1",
+        "documentId": "doc-v",
+        "text": "Morning light"
+      },
+      {
+        "id": "text-2",
+        "documentId": "doc-v",
+        "text": "Evening sky"
+      }
+    ],
+    "units": [],
+    "alignments": [],
+    "voices": [
+      {
+        "id": "v1",
+        "trackId": "vocal",
+        "documentId": "doc-v"
+      }
+    ]
+  },
+  "resources": []
+}

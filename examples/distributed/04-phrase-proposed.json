@@ -1,0 +1,30 @@
+{
+  "profile": "OSTF-Distributed-Session-0.3",
+  "sessionId": "jam-session-5",
+  "recordType": "event",
+  "eventId": "e-propose",
+  "issuerParticipantId": "agent",
+  "baseStateRevision": 1,
+  "effectivePerformanceTick": 960,
+  "kind": "phraseProposed",
+  "payload": {
+    "proposalId": "proposal-1",
+    "targetTrackId": "improv",
+    "phrase": {
+      "durationTicks": 480,
+      "notes": [
+        {
+          "startTick": 0,
+          "durationTicks": 240,
+          "pitch": 60,
+          "velocity": 88
+        }
+      ],
+      "representation": "midi1Notes"
+    }
+  },
+  "documentId": "doc-jam-5",
+  "revisionId": "rev-1",
+  "performancePlanId": "plan-A",
+  "scoreSha256": "2fb5932716aa9d142f1287ce897a9267f33688a74934a052b1cdad57502d98a7"
+}

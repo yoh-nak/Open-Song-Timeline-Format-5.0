@@ -1,0 +1,78 @@
+{
+  "format": "OSTF",
+  "version": "5.0.0",
+  "ppq": 960,
+  "song": {
+    "title": "R&B vocal freestyle"
+  },
+  "timeline": {
+    "sections": [
+      {
+        "id": "A",
+        "name": "A",
+        "start": 0,
+        "duration": 30720
+      }
+    ],
+    "tempoChanges": [
+      {
+        "at": 0,
+        "bpm": 120
+      }
+    ],
+    "meterChanges": [
+      {
+        "at": 0,
+        "numerator": 4,
+        "denominator": 4
+      }
+    ]
+  },
+  "harmony": {
+    "chords": [],
+    "scales": []
+  },
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead Vocal",
+      "clips": [],
+      "directions": [
+        {
+          "id": "vocalFreedom-1",
+          "type": "vocalFreedom",
+          "start": 0,
+          "duration": 30720,
+          "parameters": {
+            "voiceId": "voice-lead",
+            "textPolicy": "open",
+            "melodyPolicy": "open",
+            "vocalizationKind": "lexical",
+            "adherence": "preferred"
+          }
+        }
+      ]
+    }
+  ],
+  "soundSlots": [],
+  "lyrics": {
+    "documents": [
+      {
+        "id": "doc-lead",
+        "title": "Lead lyric"
+      }
+    ],
+    "phrases": [],
+    "units": [],
+    "alignments": [],
+    "voices": [
+      {
+        "id": "voice-lead",
+        "trackId": "lead",
+        "documentId": "doc-lead",
+        "role": "lead"
+      }
+    ]
+  },
+  "resources": []
+}

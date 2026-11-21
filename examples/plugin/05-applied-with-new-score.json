@@ -1,0 +1,23 @@
+{
+  "protocol": "OSTF-Plugin-Context",
+  "protocolVersion": "1.0.0",
+  "messageId": "ack-applied-01",
+  "operation": "ack",
+  "score": {
+    "format": "OSTF",
+    "version": "5.0.0",
+    "sha256": "f849298b9ba0e14d32f95a9f270878110816ec00351ec3d9a0f5412d3968d1e3"
+  },
+  "scope": {
+    "startTick": 0,
+    "durationTicks": 3840,
+    "trackIds": [
+      "bass"
+    ]
+  },
+  "payload": {
+    "inReplyTo": "proposal-message-01",
+    "status": "applied",
+    "effectiveScoreSha256": "483738c1caf325b03a3aa364381881e857636c7d3b61209250ac2d10ae4baa34"
+  }
+}

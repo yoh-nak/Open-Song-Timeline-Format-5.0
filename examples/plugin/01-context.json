@@ -1,0 +1,45 @@
+{
+  "protocol": "OSTF-Plugin-Context",
+  "protocolVersion": "1.0.0",
+  "messageId": "ctx001",
+  "operation": "context",
+  "score": {
+    "format": "OSTF",
+    "version": "5.0.0",
+    "sha256": "f849298b9ba0e14d32f95a9f270878110816ec00351ec3d9a0f5412d3968d1e3"
+  },
+  "scope": {
+    "startTick": 0,
+    "durationTicks": 3840,
+    "trackIds": [
+      "bass"
+    ]
+  },
+  "transport": {
+    "isPlaying": true,
+    "positionTick": 0,
+    "hostPpq": 960,
+    "scorePpq": 960,
+    "bpm": 126.0,
+    "meterNumerator": 4,
+    "meterDenominator": 4,
+    "loopActive": false
+  },
+  "payload": {
+    "partial": true,
+    "data": {
+      "harmony": [
+        {
+          "id": "ch1",
+          "start": 0,
+          "duration": 3840,
+          "label": "Am"
+        }
+      ]
+    },
+    "unavailableFields": [
+      "lyrics",
+      "resources"
+    ]
+  }
+}
